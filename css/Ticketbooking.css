@@ -1,0 +1,119 @@
+body{
+	background-image:url(https://jooinn.com/images/aircraft-near-clouds-1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.booking-form-box{
+	max-width: 350px;
+	border:3px solid black;
+	margin: 10%;
+}
+span{
+	font-size: 16px;
+}
+.radio-btn{
+	margin: 0 20px;
+}
+.radio-btn .btn{
+	margin: 20px 10px 20px 0;
+	box-shadow: none;
+
+}
+.bookingform{
+	padding: 0 20px 20px;
+
+}
+.bookingform label{
+	margin-bottom:8px;
+	margin-top: 12px;
+	font-size: 20px;
+}
+input::placeholder{
+	color:#fff !important;
+}
+.input-grp{
+	width: 151px;
+	display: inline-block;
+}
+.form-control{
+	font-size: 20px !important;
+	border-radius:3px !important;
+	background: transparent !important;
+	box-shadow: none !important;
+
+	border-color:black;
+}
+.select-date::-webkit-inner-spin-button,.select-date::-webkit-outer-spin-button{
+	-webkit-appearance:none;
+	margin: 0;
+}
+.custom-select{
+
+	font-size: 20px !important;
+	border: 1px solid #ced4da !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+}
+.flight{
+	width: 100%;
+	padding: 9px 0;
+	font-size: 18px;
+	border: 1px solid #ced4da !important;
+
+
+	box-shadow: none !important;
+}
+.text{
+	font-family: cursive;
+	font-size: 70px;
+	 color: black;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -50%);
+}
+
+/*<div class="input-grp">
+		<label>Children</label>
+	<input type="number" class="form-control" value="1">
+</div>*/
+.myButton{
+	box-shadow: 0px 1px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, black 5%, #476e9e 100%);
+	background-color:black;/*#7892c2;*/
+	border-radius:6px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:8px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+	margin-top: 30px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, black 5%, #7892c2 100%);
+	background-color:black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.Travel{
+	padding-top: 10px;
+  font-size: 20px;
+}
+
+
+#homebutton{
+	padding-left:600px;
+	text-decoration-color:white;
+
+}

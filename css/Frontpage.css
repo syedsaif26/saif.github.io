@@ -1,0 +1,262 @@
+.section-one-div {
+  position: absolute;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.nav-item {
+  margin: 4% 0px 2% 7px;
+  font-size: 1.3rem;
+}
+
+.text1, .text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}
+
+.text1 {
+  color: black;
+  transform: translate(-92%, -1000%);
+}
+
+.text {
+  color: white;
+  transform: translate(-50%, -240%);
+  font-weight: bolder;
+  font-size: 80px;
+  font-family: "Acme";
+}
+
+.Flights {}
+
+#slider {
+  padding-top: 10%;
+}
+
+/*.jumbotron{
+	width: 100%;
+}
+.form-control{
+	width: 100%;
+}*/
+#section-two {
+  background-color: #17a2b8;
+}
+
+.section-two-part1 {
+  margin-left: 210px;
+}
+
+.admin {
+  margin: 30px;
+  margin-left: 283px;
+}
+
+.user {
+  margin: 30px;
+  margin-left: 300px;
+}
+
+.section-two-part2 {
+  margin-left: 280px;
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 25px;
+  box-shadow: 0px 10px 14px -7px #ffffff;
+  background: linear-gradient(to bottom, black 4%, #808080 100%);
+  border-radius: 8px;
+  display: inline-block;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  background: linear-gradient(to bottom, black 5%, black 100%);
+}
+
+#section-three {
+  padding: 140px 40px;
+  background-color: #17a2b8;
+}
+
+/*.card{
+  border-radius: 3px;
+  border-color:#808080;
+}*/
+.card-deck, .card {
+  width: 60rem;
+  margin-left: 230px;
+}
+
+#last-section {
+  padding: 40px 40px 40px 40px;
+  color: #808080;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.last-para {
+  font-size: 0.6rem;
+  margin: 20px 30px 0px 30px;
+}
+
+.icon-1 {
+  font-size: 30px;
+  margin-right: 20px;
+  color: #db7093;
+}
+
+.icon-1:hover {
+  color: black;
+}
+
+.icon-2 {
+  font-size: 30px;
+  margin-right: 20px;
+  color: green;
+}
+
+.icon-2:hover {
+  color: black;
+}
+
+.icon-3 {
+  font-size: 30px;
+  margin-right: 2px;
+  color: blue;
+}
+
+.icon-3:hover {
+  color: black;
+}
+
+.icon-4 {
+  font-size: 30px;
+  margin-left: 20px;
+  color: lightblue;
+}
+
+.icon-4:hover {
+  color: black;
+}
+
+.last {
+  color: black;
+  padding: 20px;
+}
+
+.icons {
+  padding-bottom: 20px;
+}
+
+.number {
+  font-size: 20px;
+  color: #808080;
+  shadow: 10px;
+}
+
+.dots {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*padding: 20px;*/
+  background: #eee;
+  user-select: none;
+}
+
+[type=radio] {
+  display: none;
+}
+
+#slider {
+  height: 35vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+#slider label {
+  margin: auto;
+  width: 40%;
+  height: 80%;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+#s1:checked~#slide4, #s2:checked~#slide5,
+#s3:checked~#slide1, #s4:checked~#slide2,
+#s5:checked~#slide3 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
+  transform: translate3d(-30%, 0, -200px);
+}
+
+#s1:checked~#slide5, #s2:checked~#slide1,
+#s3:checked~#slide2, #s4:checked~#slide3,
+#s5:checked~#slide4 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+  transform: translate3d(-15%, 0, -100px);
+}
+
+#s1:checked~#slide1, #s2:checked~#slide2,
+#s3:checked~#slide3, #s4:checked~#slide4,
+#s5:checked~#slide5 {
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, .3), 0 11px 7px 0 rgba(0, 0, 0, .19);
+  transform: translate3d(0, 0, 0);
+}
+
+#s1:checked~#slide2, #s2:checked~#slide3,
+#s3:checked~#slide3, #s4:checked~#slide5,
+#s5:checked~#slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+  transform: translate3d(-15%, 0, -100px);
+}
+
+#s1:checked~#slide3, #s2:checked~#slide4,
+#s3:checked~#slide5, #s4:checked~#slide1,
+#s5:checked~#slide2 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
+  transform: translate3d(30%, 0, -200px);
+}
+    /*<div class="row section-two-part1">
+      <div class="col-lg-6 col-md-4 col-sm-2">
+        <img src="https://cdn4.iconfinder.com/data/icons/SHINE7/general/400/administrator.png" height="310px" width="310px" alt="">‍
+      </div>
+      <div class="col-lg-6 col-md-4 col-sm-2">
+        <img src="https://ict4elt2016participants.pbworks.com/f/1449444958/profile.png" height="300px" width="300px" alt="">
+
+
+      </div>
+
+    </div>
+    <div>
+      <a href="Adminpage.html" class="btn btn-info admin " role="button">Admin Login</a>
+      <a href="UsersignIn.html" class="btn btn-info user new1" role="button">User Login</a>
+    </div>
+*/
